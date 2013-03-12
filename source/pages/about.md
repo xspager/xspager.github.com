@@ -1,7 +1,3 @@
-Title: Teste
+Title: Sobre
 
-<script src="https://gist.github.com/mojombo/118964.js"></script>
-    :::python
-    import sys
-
-    print "Hello World!"
+Um blog simples hospedado no [GitHub](https://github.com/) e gerado usando [Pelican](http://docs.getpelican.com/)
