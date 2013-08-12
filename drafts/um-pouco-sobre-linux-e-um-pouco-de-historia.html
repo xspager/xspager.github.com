@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Um pouco sobre Linux e um pouco de história</title>
+        <link rel="stylesheet" href="http://blog.danielocl.com.br/theme/css/main.css">
+                <link href="http://blog.danielocl.com.br/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="xSpager's Blog Atom Feed" />
+                
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.danielocl.com.br/">xSpager's Blog </a></h1>
+                <nav><ul>
+                                                    <li><a href="http://blog.danielocl.com.br/pages/sobre.html">Sobre</a></li>
+                                                                    <li ><a href="http://blog.danielocl.com.br/category/web.html">Web</a></li>
+                                                </ul></nav>
+        </header><!-- /#banner -->
+        <section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.danielocl.com.br/um-pouco-sobre-linux-e-um-pouco-de-historia.html" rel="bookmark"
+           title="Permalink to Um pouco sobre Linux e um pouco de história">Um pouco sobre Linux e um pouco de história</a></h1>
+          </header>
+
+    <div class="entry-content">
+      <footer class="post-info">
+        <abbr class="published" title="2013-08-12T00:00:00">
+                Seg 12 agosto 2013
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="http://blog.danielocl.com.br/author/daniel-lemos.html">Daniel Lemos</a>
+        </address>
+        <p>In <a href="http://blog.danielocl.com.br/category/historia.html">historia</a>. </p>
+<p>tags: <a href="http://blog.danielocl.com.br/tag/linux.html">linux</a><a href="http://blog.danielocl.com.br/tag/minix.html">minix</a><a href="http://blog.danielocl.com.br/tag/c.html">c</a><a href="http://blog.danielocl.com.br/tag/unix.html">unix</a></p>
+</footer><!-- /.post-info -->      <blockquote>
+<p>"Para entender o presente é preciso conhecer o passado" - <strong>Carl Sagan</strong></p>
+</blockquote>
+<p><em>Esse post é de minha autoria e foi publicado primeiro no <a href="http://blog.concretesolutions.com.br/">blog</a> da <a href="http://www.concretesolutions.com.br/">Concrete Solutions</a>: <a href="http://blog.concretesolutions.com.br/2013/07/um-pouco-sobre-linux-e-um-pouco-de-historia/">http://blog.concretesolutions.com.br/2013/07/um-pouco-sobre-linux-e-um-pouco-de-historia/</a></em></p>
+<p><strong>Nota</strong>: <em>Coloquei os links que referenciam a Wikipédia apontando para os artigos em Inglês, você sempre pode procurar o link para a versão em Português na barra na lateral esquerda.</em></p>
+<p>Para entender o que é o Linux e o porque dele ser como é, é preciso saber como ele surgiu.</p>
+<p>Tudo começou quando a Bell Labs abandonou o projeto Multics, que visava desenvolver um sistema que fornecesse poder computacional num modelo semelhante ao que temos para energia elétrica, ou o de telefone fixa (Utility computing). Há uma frase erroneamente atribuída a Thomas Watson (nome do IBM Watson é uma homenagem a ele), "I think there is a world market for maybe five computers" ("eu acredito que no mundo haja um mercado para cinco computadores"), mas que parece não ser tão absurda com o aumento do uso de app e dispositivos móveis, que podem se interpretados como uma reencarnação dos Thin Clients e terminais, e Cloud Computing.</p>
+<p>Ken Thompson e Dennis Ritchie (que faleceu em outubro de 2011) resolveram criar uma versão simplificada do Multics numa máquina que estava sem uso. Pegando emprestado alguns conceitos do Multics eles escreveram na linguagem de máquina do minicomputador PDP-7 o que viria a ser chamado de Unix. Nessa primeira versão do Unix, ainda no PDP-7 foi criada a linguagem B, e uma parte do Unix foi reescrita em B, o que o tornou portátil, já que sem esse passo seria preciso reescrever o sistema inteiro na linguagem de máquina da plataforma alvo. C (ver K&amp;R) só foi surgir quando o Unix foi portado para o PDP-11, uma máquina mais potente que precisou que a linguagem mudasse. Mais tarde o Unix foi reescrito em C.
+Ken Thompson e Dennis Ritchie planejando dominar o mundo com o seu PDP-11
+Nesses primeiros dias, os fontes do sistema eram distribuídos gratuitamente já que o valor na industria de TI da época era o hardware, a universidades e era estudados amplamente e usado em pesquisas. Em Berkeley foi criada a primeira distribuição baseada no código do Unix, chamada de Berkeley Software Distribution ou BSD, que mais tarde viria ser a base do Darwin (o Unix da Apple), por tanto ao OSX e iOS. Mas essa já é outra história. </p>
+<p>Do outro lado do atlântico algum tempo depois, um professor chamado Andrew Tanenbaum resolveu criar uma mini-versão do Unix para o IBM PC, chamada MINIX. O código cabia inteiro no livro que ele havia escrito sobre sistemas operacionais. Mais tarde Tanenbaum lideraria o desenvolvimento do sistema operacional distribuído Amoeba, onde Guido van Rossum viria sentir a necessidade de criar Python.</p>
+<p>De volta a terra do Tio Sam, Richard Stallman estava com problemas com uma impressora Xerox (Um dia escrevo uma artigo sobre a Xerox e o PARC), e se ofereceu para corrigir o bug que o incomodava, o que lhe parecia razoável, já que ele fazia parte do laboratório de inteligência artificial do MIT. Só que para isso, o fabricante da impressora pediu que ele assinasse um NDA (Non Disclosure Agreement ou Acordo de não divulgação). Para ele que respirava a cultura Hacker, era impensável não poder compartilhar as melhorias que ele fizesse com os outros hackers. Então o nosso amigo resolveu que ninguém nunca iria precisar assinar um NDA para poder modificar um software para adapta-lo para seu uso, e iniciou o projeto GNU (GNU (GNU (GNU is Not Unix) is Not Unix) is Not Unix). O Projeto GNU (gnu.org) visava criar um sistema operacional altamente portátil chamdo Emacs, digo, o Sistema Operacional GNU chamado GNU/Hurd, que é uma reimplementação livre de todos os componentes de um sistema Unix.</p>
+<p>Um GNU (Connochaetes gnou)
+Richard Stallman começou sozinho escreveu o Emacs (um editor de texto poderoso, implementado e extensível num dialeto LISP chamado Elisp). Mais tarde pediu a Andrew Tanenbaun (o mesmo do MINIX), se ele poderia usar o Amsterdam Compiler Kit que ele havia escrito como o compilador do projeto GNU, mas Andrew disse que o compilador não era livre, então Stallman resolveu escrever o GCC (um compilador que se baseia em front-ends e back-ends para compilar inúmeras linguagens para inúmeras plataformas). Mais tarde outros começaram a se juntar a ele na tarefa de reescrever cada um dos programas que compõem um sistema Unix. O software produzido pelo projeto GNU é altamente portátil, foi, e é usado em uma grande variedades de sistemas Unix, devido a uma série de fatores, sedo o principal a possibilidade de modificar o código das aplicações. Só que no fim, ainda faltava um programa a ser substituído, o kernel. Era possível substituir todos os softwares proprietários de um sistema Unix por suas cópias equivalentes GNU, mas o substituto GNU para esse programa (o Hurd (Hird of Unix-Replacing Daemons)), que existe para gerenciar a máquina e os outros programas, ainda não estava pronto (e segue não sendo recomendado para sistemas em produção). Não era possível considerar o sistema livre sem um kernel livre. E é ai que entra na nossa história um tal de Linus Torvalds.</p>
+<p>O Sistema Operacional GNU... 
+Um estudante Finlandês chamado Linux Torvalds comprou um IBM PC e instalou o MINIX nele, mas não foi muito com a cara do kernel (mais exatamente, micro-kernel) MINIX (e mais tarde com a o do criador dele) e achou que podia fazer melhor. Esse kernel melhor escrito por Linus, que ele chamou de Linux, foi aunuciado ao mundo e recebeu muitas contribuições (pull requests, para que vocês jovens possam entender). Algumas pessoas começaram a montar sistemas que juntavam esse kernel a os programas GNU e chamaram isso de distro Linux, o que deixou Richard Stallman muito #chateado, e até hoje ele tenta catequizar o mundo e pregar a palavra do GNU/Linux (GNU-slash-Linux), com algum sucesso.</p>
+<p>Espero que essa estorinha possa ter gerado interesse na história da computação, do Unix, do projeto GNU, do movimento OpenSource e um pouco na filosofia Hacker também.</p>
+<h1>Bónus</h1>
+<p>Timeline das distros Linux (ou GNU/Linux): http://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg</p>
+<p>Veja o canal do Youtube do Computer History museum: http://www.youtube.com/user/ComputerHistory/videos</p>
+<h2>Dessa tradição Bell Labs / Unix / C surgiram ainda:</h2>
+<ul>
+<li>
+<p>Plan 9: Um sistema operacional que teve o seu código aberto. Desenvolvido pela Bell Labs como sucessor do Unix, onde tudo é representado como um sistema de arquivos. Interessante notar que até mesmo os processos são representados como um sistema de arquivos, essa idéia foi copiada do Unix V8, e depois copiada pelo Linux e outros Unix e Unix-Like na forma da árvore /proc (recomendo rodar "ls /proc", só pela diversão) . Ainda, UTF-8 foi criada por Ken Thompson e Rob Pike e teve a sua primeira implementação no Plan 9.</p>
+</li>
+<li>
+<p>9front: Um fork do Plan 9</p>
+</li>
+<li>
+<p>Inferno: Sistema operacional também pela Bell Labs, fruto das experiências com o desenvolvimento do Plan 9. Escrito em C e Limbo, altamente portátil, roda numa máquina virtual register-based, que inspirou a VM Dalvik, usada no Android (que usa o Linux como seu Kernel). Agora, propriedade na Vita Nuova. É possível rodar ele como hóspede no Linux, Windows, Internet Explorer, OSX (Darwin), Plan 9, nativo em alguns hardwares, FreeBSD, Solaris, etc</p>
+</li>
+<li>
+<p>Go lang: Linguagem desenvolvida por Ken Thompson (um dos inventorer do Unix, obviamente trabalhou no Plan 9) , Rob Pike (trabalhou no Plan 9) entre outros, e mais tarde teve ajuda do Russ Cox (também trabalhou no Plan 9), que elevou o nível das bibliotecas padrão. Começou com o objetivo de substituir C++ dentro do Google, reduzindo o tempo de compilação que chega a levar horas para algumas aplicações e melhorar o entendimento da interdepêndencia entre aplicações e bibliotecas, com um pouco da flexibilidade de Python (ambas, C++ e Python são amplamente usadas dentro do Google). Inspirada por C, Python, Limbo, CSP, Pascal, Oberon, Modula e Newsqueak. Não tava sabendo, mas o Grok Podcast começou uma série esses dias sobre Go http://www.grokpodcast.com/2013/07/17/episodio-95-golang/</p>
+</li>
+</ul>
+<p>Recomendo uma pesquisa sobre a origem dos transistores e outras contribuições do grupo de R&amp;D "fundado" por Alexander Graham Bell, inventor do Telephone.</p>
+<h2>Sistemas operacionais que usam o kernel Hurd</h2>
+<ul>
+<li>
+<p>Debian/Hurd ou Debian/GNU/Hurd: O Sistema operacional Debian (ou GNU/Debian) usando o kernel GNU ao invés do Linux</p>
+</li>
+<li>
+<p>Arch/Hurd: Sistema operacional Arch + o kernel GNU substituindo o Linux</p>
+</li>
+<li>
+<p>GNU/Hurd: O Sistema operacional GNU. Totalmente livre e GNU.</p>
+</li>
+</ul>
+    </div><!-- /.entry-content -->
+    
+  </article>
+</section>
+        <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                                                    <li><a href="http://docs.notmyidea.org/alexis/pelican/">Pelican</a></li>
+                                                    <li><a href="http://python.org">Python.org</a></li>
+                                                    <li><a href="http://jinja.pocoo.org">Jinja2</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.danielocl.com.br/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34177469-2']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+<script type="text/javascript">
+    var disqus_shortname = 'xspagersblog';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+</body>
+</html>

@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>xSpager's Blog</title><link href="http://blog.danielocl.com.br/" rel="alternate"></link><link href="http://blog.danielocl.com.br/feeds/all.atom.xml" rel="self"></link><id>http://blog.danielocl.com.br/</id><updated>2013-03-12T00:00:00+01:00</updated><entry><title>Hospedando um site estático na sua conta do GitHub</title><link href="http://blog.danielocl.com.br/hospedando-um-site-estatico-na-sua-conta-do-github.html" rel="alternate"></link><updated>2013-03-12T00:00:00+01:00</updated><author><name>Daniel Lemos</name></author><id>tag:blog.danielocl.com.br,2013-03-12:hospedando-um-site-estatico-na-sua-conta-do-github.html</id><summary type="html">&lt;p&gt;O primeiro passo é criar uma conta no GitHub se você ainda não tiver uma. Para criar uma conta grátis, vá em &lt;a href=""&gt;https://github.com/signup/free&lt;/a&gt; e se cadastre-se.&lt;/p&gt;
 &lt;p&gt;Agora precisamos criar um novo repositório git na sua conta que vai ser o site. O nome desse repositório deve seguir o padrão nome_do_seu_usuario.github.com&lt;/p&gt;
 &lt;p&gt;Para poder começar a criar o seu site você vai ter que clonar o esse repositório na rua máquina local. Para quem não está familiarizado com git, você deve rodar:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;git clone https://github.com/usuario/nome_do_seu_usuario.github.com.git
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;git clone https://github.com/usuario/nome_do_seu_usuario.github.com.git
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;A seguir vamos criar um arquivo HTML(no caso HTML5) básico no estilo "Hello, World!". Crie um arquivo chamado index.html na raiz do clone do seu repositório com o código a seguir:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;html&lt;/span&gt; &lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;en&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
    &lt;span class="nt"&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
        &lt;span class="nt"&gt;&amp;lt;meta&lt;/span&gt; &lt;span class="na"&gt;charset=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;utf-8&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
@@ -24,13 +24,13 @@
 
 
 &lt;p&gt;Commite o arquivo:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;git add index.html
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;git add index.html
 &lt;span class="nv"&gt;$ &lt;/span&gt;git commit -m &lt;span class="s1"&gt;&amp;#39;Commit inicial&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;E faça o push para o github:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;git push
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;git push
 &lt;/pre&gt;&lt;/div&gt;
 
 
