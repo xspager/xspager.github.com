@@ -23,22 +23,23 @@ Do outro lado do atlântico algum tempo depois, um professor chamado Andrew Tane
 De volta a terra do Tio Sam, Richard Stallman estava com problemas com uma impressora Xerox (Um dia escrevo uma artigo sobre a Xerox e o PARC), e se ofereceu para corrigir o bug que o incomodava, o que lhe parecia razoável, já que ele fazia parte do laboratório de inteligência artificial do MIT. Só que para isso, o fabricante da impressora pediu que ele assinasse um NDA (Non Disclosure Agreement ou Acordo de não divulgação). Para ele que respirava a cultura Hacker, era impensável não poder compartilhar as melhorias que ele fizesse com os outros hackers. Então o nosso amigo resolveu que ninguém nunca iria precisar assinar um NDA para poder modificar um software para adapta-lo para seu uso, e iniciou o projeto GNU (GNU (GNU (GNU is Not Unix) is Not Unix) is Not Unix). O Projeto GNU (gnu.org) visava criar um sistema operacional altamente portátil chamdo Emacs, digo, o Sistema Operacional GNU chamado GNU/Hurd, que é uma reimplementação livre de todos os componentes de um sistema Unix.
 
 Um GNU (Connochaetes gnou)
+
 Richard Stallman começou sozinho escreveu o Emacs (um editor de texto poderoso, implementado e extensível num dialeto LISP chamado Elisp). Mais tarde pediu a Andrew Tanenbaun (o mesmo do MINIX), se ele poderia usar o Amsterdam Compiler Kit que ele havia escrito como o compilador do projeto GNU, mas Andrew disse que o compilador não era livre, então Stallman resolveu escrever o GCC (um compilador que se baseia em front-ends e back-ends para compilar inúmeras linguagens para inúmeras plataformas). Mais tarde outros começaram a se juntar a ele na tarefa de reescrever cada um dos programas que compõem um sistema Unix. O software produzido pelo projeto GNU é altamente portátil, foi, e é usado em uma grande variedades de sistemas Unix, devido a uma série de fatores, sedo o principal a possibilidade de modificar o código das aplicações. Só que no fim, ainda faltava um programa a ser substituído, o kernel. Era possível substituir todos os softwares proprietários de um sistema Unix por suas cópias equivalentes GNU, mas o substituto GNU para esse programa (o Hurd (Hird of Unix-Replacing Daemons)), que existe para gerenciar a máquina e os outros programas, ainda não estava pronto (e segue não sendo recomendado para sistemas em produção). Não era possível considerar o sistema livre sem um kernel livre. E é ai que entra na nossa história um tal de Linus Torvalds.
 
-O Sistema Operacional GNU... 
+O Sistema Operacional GNU...
+
 Um estudante Finlandês chamado Linux Torvalds comprou um IBM PC e instalou o MINIX nele, mas não foi muito com a cara do kernel (mais exatamente, micro-kernel) MINIX (e mais tarde com a o do criador dele) e achou que podia fazer melhor. Esse kernel melhor escrito por Linus, que ele chamou de Linux, foi aunuciado ao mundo e recebeu muitas contribuições (pull requests, para que vocês jovens possam entender). Algumas pessoas começaram a montar sistemas que juntavam esse kernel a os programas GNU e chamaram isso de distro Linux, o que deixou Richard Stallman muito #chateado, e até hoje ele tenta catequizar o mundo e pregar a palavra do GNU/Linux (GNU-slash-Linux), com algum sucesso.
 
 Espero que essa estorinha possa ter gerado interesse na história da computação, do Unix, do projeto GNU, do movimento OpenSource e um pouco na filosofia Hacker também.
 
-Bónus
-=====
+##Bónus
 
 Timeline das distros Linux (ou GNU/Linux): http://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg
 
 Veja o canal do Youtube do Computer History museum: http://www.youtube.com/user/ComputerHistory/videos
 
 
-## Dessa tradição Bell Labs / Unix / C surgiram ainda:
+### Dessa tradição Bell Labs / Unix / C surgiram ainda:
 
 * Plan 9: Um sistema operacional que teve o seu código aberto. Desenvolvido pela Bell Labs como sucessor do Unix, onde tudo é representado como um sistema de arquivos. Interessante notar que até mesmo os processos são representados como um sistema de arquivos, essa idéia foi copiada do Unix V8, e depois copiada pelo Linux e outros Unix e Unix-Like na forma da árvore /proc (recomendo rodar "ls /proc", só pela diversão) . Ainda, UTF-8 foi criada por Ken Thompson e Rob Pike e teve a sua primeira implementação no Plan 9.
 
@@ -51,7 +52,7 @@ Veja o canal do Youtube do Computer History museum: http://www.youtube.com/user/
 
 Recomendo uma pesquisa sobre a origem dos transistores e outras contribuições do grupo de R&D "fundado" por Alexander Graham Bell, inventor do Telephone.
 
-## Sistemas operacionais que usam o kernel Hurd
+### Sistemas operacionais que usam o kernel Hurd
 
 * Debian/Hurd ou Debian/GNU/Hurd: O Sistema operacional Debian (ou GNU/Debian) usando o kernel GNU ao invés do Linux
 
