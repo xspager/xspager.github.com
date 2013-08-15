@@ -16,14 +16,15 @@ LINKS = (
     ('Jinja2', 'http://jinja.pocoo.org'),
 )
 
-"""
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-"""
+SOCIAL = (
+    ('twitter', 'http://twitter.com/DanielOCL'),
+)
 
 DEFAULT_PAGINATION = 10
 
 OUTPUT_PATH = '../'
 
 #THEME = 'waterspill'
+
+STATIC_PATH = ["images"]
