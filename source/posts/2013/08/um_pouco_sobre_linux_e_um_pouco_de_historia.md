@@ -25,15 +25,15 @@ Nesses primeiros dias, os fontes do sistema eram distribuídos gratuitamente já
 
 Do outro lado do atlântico algum tempo depois, um professor chamado [Andrew Tanenbaum][] resolveu criar uma mini-versão do Unix para o [IBM PC][], chamada [MINIX][]. O código cabia inteiro no [livro que ele havia escrito][livro_tanenbaum] sobre sistemas operacionais. Mais tarde Tanenbaum lideraria o desenvolvimento do sistema operacional distribuído [Amoeba][], onde [Guido van Rossum][] viria sentir a necessidade de criar [Python][].
 
-De volta a terra do Tio Sam, [Richard Stallman][] estava com problemas com uma impressora Xerox (Um dia escrevo uma artigo sobre a [Xerox] e o [PARC]), e se ofereceu para corrigir o bug que o incomodava, o que lhe parecia razoável, já que ele fazia parte do [laboratório de inteligência artificial][lab_ia] do [MIT][]. Só que para isso, o fabricante da impressora pediu que ele assinasse um NDA (Non Disclosure Agreement ou Acordo de não divulgação). Para ele que respirava a cultura Hacker, era impensável não poder compartilhar as melhorias que ele fizesse com os outros hackers. Então o nosso amigo resolveu que ninguém nunca iria precisar assinar um NDA para poder modificar um software para adapta-lo para seu uso, e iniciou o projeto [GNU][] (GNU (GNU (GNU is Not Unix) is Not Unix) is Not Unix). O [Projeto GNU][] (<http://gnu.org>) visava criar um sistema operacional altamente portátil chamdo Emacs, digo, o Sistema Operacional GNU chamado GNU/Hurd, que é uma reimplementação livre de todos os componentes de um sistema Unix.
+De volta a terra do Tio Sam, [Richard Stallman][] estava com problemas com uma impressora Xerox (Um dia escrevo uma artigo sobre a [Xerox] e o [PARC]), e se ofereceu para corrigir o bug que o incomodava, o que lhe parecia razoável, já que ele fazia parte do [laboratório de inteligência artificial][lab_ia] do [MIT][]. Só que para isso, o fabricante da impressora pediu que ele assinasse um NDA (Non Disclosure Agreement ou Acordo de não divulgação). Para ele que respirava a cultura Hacker, era impensável não poder compartilhar as melhorias que ele fizesse com os outros hackers. Então o nosso amigo resolveu que ninguém nunca iria precisar assinar um NDA para poder modificar um software para adapta-lo para seu uso, e iniciou o projeto <abbr title="(GNU (GNU (GNU is Not Unix) is Not Unix) is Not Unix)">GNU</abbr>. O [Projeto GNU][] (<http://gnu.org>) visava criar um sistema operacional altamente portátil chamdo Emacs, digo, o Sistema Operacional GNU chamado GNU/Hurd, que é uma reimplementação livre de todos os componentes de um sistema Unix.
 
-Richard Stallman começou sozinho escreveu o Emacs (um editor de texto poderoso, implementado e extensível num dialeto LISP chamado Elisp). Mais tarde pediu a Andrew Tanenbaun (o mesmo do MINIX), se ele poderia usar o Amsterdam Compiler Kit que ele havia escrito como o compilador do projeto GNU, mas Andrew disse que o compilador não era livre, então Stallman resolveu escrever o GCC (um compilador que se baseia em front-ends e back-ends para compilar inúmeras linguagens para inúmeras plataformas). Mais tarde outros começaram a se juntar a ele na tarefa de reescrever cada um dos programas que compõem um sistema Unix. O software produzido pelo projeto GNU é altamente portátil, foi, e é usado em uma grande variedades de sistemas Unix, devido a uma série de fatores, sedo o principal a possibilidade de modificar o código das aplicações. Só que no fim, ainda faltava um programa a ser substituído, o kernel. Era possível substituir todos os softwares proprietários de um sistema Unix por suas cópias equivalentes GNU, mas o substituto GNU para esse programa (o Hurd (Hird of Unix-Replacing Daemons)), que existe para gerenciar a máquina e os outros programas, ainda não estava pronto (e segue não sendo recomendado para sistemas em produção). Não era possível considerar o sistema livre sem um kernel livre. E é ai que entra na nossa história um tal de Linus Torvalds.
+Richard Stallman começou sozinho escreveu o [Emacs][] (um editor de texto poderoso, implementado e extensível num dialeto [LISP][] chamado [Elisp][]). Mais tarde pediu a Andrew Tanenbaum (o cara do MINIX), se ele poderia usar o [Amsterdam Compiler Kit][] que ele havia escrito como o compilador do projeto GNU, mas Andrew disse que o compilador não era livre, então Stallman resolveu escrever o [GCC][] (um compilador que se baseia em front-ends e back-ends para compilar inúmeras linguagens para inúmeras plataformas). Mais tarde outros começaram a se juntar a ele na tarefa de reescrever cada um dos programas que compõem um sistema Unix. O software produzido pelo projeto GNU é altamente portátil, foi, e é usado em uma grande variedades de sistemas Unix, devido a uma série de fatores, sedo o principal a possibilidade de modificar o código das aplicações. Só que no fim, ainda faltava um programa a ser substituído, o [kernel][]. Era possível substituir todos os softwares proprietários de um sistema Unix por suas cópias equivalentes GNU, mas o substituto GNU para esse programa (o Hurd (Hird of Unix-Replacing [Daemons][])), que existe para gerenciar a máquina e os outros programas, ainda não estava pronto (e segue não sendo recomendado para sistemas em produção). Não era possível considerar o sistema livre sem um kernel livre. E é ai que entra na nossa história um tal de Linus Torvalds.
 
 O Sistema Operacional GNU...
 
-Um estudante Finlandês chamado Linux Torvalds comprou um IBM PC e instalou o MINIX nele, mas não foi muito com a cara do kernel (mais exatamente, micro-kernel) MINIX (e mais tarde com a o do criador dele) e achou que podia fazer melhor. Esse kernel melhor escrito por Linus, que ele chamou de Linux, foi aunuciado ao mundo e recebeu muitas contribuições (pull requests, para que vocês jovens possam entender). Algumas pessoas começaram a montar sistemas que juntavam esse kernel a os programas GNU e chamaram isso de distro Linux, o que deixou Richard Stallman muito #chateado, e até hoje ele tenta catequizar o mundo e pregar a palavra do GNU/Linux (GNU-slash-Linux), com algum sucesso.
+Um estudante Finlandês chamado [Linus Torvalds][] comprou um IBM PC e instalou o MINIX nele, mas não foi muito com a cara do kernel (mais exatamente, [micro-kernel][]) MINIX ([e mais tarde com a o do criador dele][linux_x_tanenbaum]) e achou que podia fazer melhor. Esse kernel melhor escrito por Linus, que ele chamou de Linux, foi aunuciado ao mundo e recebeu muitas contribuições (pull requests, para que vocês jovens possam entender). Algumas pessoas começaram a montar sistemas que juntavam esse kernel a os programas GNU e chamaram isso de [distro Linux][], o que deixou Richard Stallman muito #chateado, e até hoje ele tenta catequizar o mundo e pregar a palavra do GNU/Linux ([GNU-slash-Linux][]), [com algum sucesso][].
 
-Espero que essa estorinha possa ter gerado interesse na história da computação, do Unix, do projeto GNU, do movimento OpenSource e um pouco na filosofia Hacker também.
+Espero que essa estorinha possa ter gerado interesse na [história da computação][], do Unix, do projeto GNU, do movimento [OpenSource][] e um pouco na [filosofia Hacker][] também.
 
 ##Bónus
 
@@ -42,26 +42,26 @@ Timeline das distros Linux (ou GNU/Linux): <http://upload.wikimedia.org/wikipedi
 Veja o canal do Youtube do Computer History museum: <http://www.youtube.com/user/ComputerHistory/videos>
 
 
-### Dessa tradição Bell Labs / Unix / C surgiram ainda:
+### Dessa tradição Bell Labs / Unix / C surgiram ainda
 
-* Plan 9: Um sistema operacional que teve o seu código aberto. Desenvolvido pela Bell Labs como sucessor do Unix, onde tudo é representado como um sistema de arquivos. Interessante notar que até mesmo os processos são representados como um sistema de arquivos, essa idéia foi copiada do Unix V8, e depois copiada pelo Linux e outros Unix e Unix-Like na forma da árvore /proc (recomendo rodar "ls /proc", só pela diversão) . Ainda, UTF-8 foi criada por Ken Thompson e Rob Pike e teve a sua primeira implementação no Plan 9.
+* [Plan 9][]: Um sistema operacional que teve o seu código aberto. Desenvolvido pela Bell Labs como sucessor do Unix, onde tudo é representado como um sistema de arquivos. Interessante notar que até mesmo os processos são representados como um sistema de arquivos, essa idéia foi copiada do Unix V8, e depois copiada pelo Linux e outros Unix e [Unix-Like][] na forma da árvore /proc (recomendo rodar "ls /proc", só pela diversão) . Ainda, [UTF-8][] foi criada por Ken Thompson e Rob Pike e teve a sua primeira implementação no Plan 9.
 
-* 9front: Um fork do Plan 9
+* [9front][]: Um [fork][] do Plan 9
 
-* Inferno: Sistema operacional também pela Bell Labs, fruto das experiências com o desenvolvimento do Plan 9. Escrito em C e Limbo, altamente portátil, roda numa máquina virtual register-based, que inspirou a VM Dalvik, usada no Android (que usa o Linux como seu Kernel). Agora, propriedade na Vita Nuova. É possível rodar ele como hóspede no Linux, Windows, Internet Explorer, OSX (Darwin), Plan 9, nativo em alguns hardwares, FreeBSD, Solaris, etc
+* [Inferno][]: Sistema operacional também pela Bell Labs, fruto das experiências com o desenvolvimento do Plan 9. Escrito em C e [Limbo][], altamente portátil, roda numa máquina virtual register-based, que inspirou a VM Dalvik, usada no [Android][] (que usa o Linux como seu Kernel). Agora, propriedade na [Vita Nuova][]. É possível rodar ele como hóspede no Linux, Windows, Internet Explorer, OSX ([Darwin][]), Plan 9, nativo em alguns hardwares, [FreeBSD][], [Solaris][], etc
 
-* Go lang: Linguagem desenvolvida por Ken Thompson (um dos inventorer do Unix, obviamente trabalhou no Plan 9) , Rob Pike (trabalhou no Plan 9) entre outros, e mais tarde teve ajuda do Russ Cox (também trabalhou no Plan 9), que elevou o nível das bibliotecas padrão. Começou com o objetivo de substituir C++ dentro do Google, reduzindo o tempo de compilação que chega a levar horas para algumas aplicações e melhorar o entendimento da interdepêndencia entre aplicações e bibliotecas, com um pouco da flexibilidade de Python (ambas, C++ e Python são amplamente usadas dentro do Google). Inspirada por C, Python, Limbo, CSP, Pascal, Oberon, Modula e Newsqueak. Não tava sabendo, mas o Grok Podcast começou uma série esses dias sobre Go http://www.grokpodcast.com/2013/07/17/episodio-95-golang/
+* [Go lang][]: Linguagem desenvolvida por Ken Thompson (um dos inventorer do Unix, obviamente trabalhou no Plan 9), [Rob Pike][] (trabalhou no Plan 9) entre outros, e mais tarde teve ajuda do [Russ Cox][] (também trabalhou no Plan 9), que elevou o nível das bibliotecas padrão. Começou com o objetivo de substituir C++ dentro do Google, reduzindo o tempo de compilação que chega a levar horas para algumas aplicações e melhorar o entendimento da interdepêndencia entre aplicações e bibliotecas, com um pouco da flexibilidade de Python (ambas, C++ e Python são amplamente usadas dentro do Google). Inspirada por C, Python, [Limbo][], [CSP][], [Pascal][], [Oberon][], [Modula][] e [Newsqueak][]. Não tava sabendo, mas o Grok Podcast começou uma série esses dias sobre Go <http://www.grokpodcast.com/2013/07/17/episodio-95-golang/>
 
 
-Recomendo uma pesquisa sobre a origem dos transistores e outras contribuições do grupo de R&D "fundado" por Alexander Graham Bell, inventor do Telephone.
+Recomendo uma pesquisa sobre a origem dos transistores e outras contribuições do grupo de R&D "fundado" por [Alexander Graham Bell][], inventor do Telephone.
 
 ### Sistemas operacionais que usam o kernel Hurd
 
-* Debian/Hurd ou Debian/GNU/Hurd: O Sistema operacional Debian (ou GNU/Debian) usando o kernel GNU ao invés do Linux
+* [Debian/Hurd][] ou Debian/GNU/Hurd: O Sistema operacional [Debian][] (ou GNU/Debian) usando o kernel GNU ao invés do Linux
 
-* Arch/Hurd: Sistema operacional Arch + o kernel GNU substituindo o Linux
+* [Arch/Hurd][]: Sistema operacional Arch + o kernel GNU substituindo o Linux
 
-* GNU/Hurd: O Sistema operacional GNU. Totalmente livre e GNU.
+* [GNU/Hurd][]: O Sistema operacional GNU. Totalmente livre e GNU.
 
 
 [Bell Labs]: http://en.wikipedia.org/wiki/Bell_labs
@@ -90,3 +90,55 @@ Recomendo uma pesquisa sobre a origem dos transistores e outras contribuições 
 [Amoeba]: http://en.wikipedia.org/wiki/Amoeba_distributed_operating_system
 [Guido van Rossum]: http://en.wikipedia.org/wiki/Guido_van_Rossum
 [Python]: http://en.wikipedia.org/wiki/Python_%28programming_language%29
+
+[Richard Stallman]: http://en.wikipedia.org/wiki/Richard_stallman
+[Xerox]: http://en.wikipedia.org/wiki/Xerox
+[PARC]: http://en.wikipedia.org/wiki/PARC_%28company%29
+[lab_ia]: http://en.wikipedia.org/wiki/MIT_Artificial_Intelligence_Laboratory
+[MIT]: http://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology
+[Projeto GNU]: http://en.wikipedia.org/wiki/GNU_Project
+[GNU/Hurd]: http://www.gnu.org/software/hurd/hurd/what_is_the_gnu_hurd.html
+
+[Emacs]: http://en.wikipedia.org/wiki/Emacs
+[LISP]: http://en.wikipedia.org/wiki/Lisp_programming_language
+[Elisp]: http://en.wikipedia.org/wiki/Emacs_Lisp
+[Amsterdam Compiler Kit]: http://en.wikipedia.org/wiki/Amsterdam_Compiler_Kit
+[GCC]: http://en.wikipedia.org/wiki/GNU_Compiler_Collection
+[kernel]: http://en.wikipedia.org/wiki/Kernel_(computing)
+[Daemons]: http://en.wikipedia.org/wiki/Daemon_%28computing%29
+
+[Linus Torvalds]: http://en.wikipedia.org/wiki/Linus_Torvalds
+[linux_x_tanenbaum]: http://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate
+[distro Linux]: http://en.wikipedia.org/wiki/Linux_distribution
+[GNU-slash-Linux]: http://www.gnu.org/gnu/linux-and-gnu.html
+[com algum sucesso]: http://www.youtube.com/watch?feature=player_detailpage&v=SUJtMlEwd6Q#t=1200s
+
+[história da computação]: https://en.wikipedia.org/wiki/History_of_computing
+[OpenSource]: https://en.wikipedia.org/wiki/Open_source
+[filosofia Hacker]: https://en.wikipedia.org/wiki/Hacker_ethic
+
+[Plan 9]: http://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs
+[Unix-Like]: http://en.wikipedia.org/wiki/Unix-like
+[UTF-8]: http://en.wikipedia.org/wiki/UTF-8
+[9front]: http://en.wikipedia.org/wiki/9front
+[fork]: http://en.wikipedia.org/wiki/Fork_%28software_development%29
+[Inferno]: http://en.wikipedia.org/wiki/Inferno_%28operating_system%29
+[Limbo]: http://en.wikipedia.org/wiki/Limbo_%28programming_language%29
+[Android]: http://en.wikipedia.org/wiki/Android_%28operating_system%29
+[Vita Nuova]: http://en.wikipedia.org/wiki/Vita_Nuova_Holdings
+[FreeBSD]: http://en.wikipedia.org/wiki/Freebsd
+[Solaris]: http://en.wikipedia.org/wiki/Solaris_%28operating_system%29
+[Go lang]: http://en.wikipedia.org/wiki/Go_%28programming_language%29
+[Rob Pike]: http://en.wikipedia.org/wiki/Rob_Pike
+[Russ Cox]: http://swtch.com/~rsc/
+[CSP]: http://en.wikipedia.org/wiki/Communicating_sequential_processes
+[Pascal]: http://en.wikipedia.org/wiki/Pascal_%28programming_language%29
+[Oberon]: http://en.wikipedia.org/wiki/Oberon_%28programming_language%29
+[Modula]: http://en.wikipedia.org/wiki/Modula
+[Newsqueak]: http://en.wikipedia.org/wiki/Newsqueak
+
+[Alexander Graham Bell]: https://en.wikipedia.org/wiki/Alexander_Graham_Bell
+
+[Debian/Hurd]: http://en.wikipedia.org/wiki/Debian_GNU/Hurd
+[Debian]: http://en.wikipedia.org/wiki/Debian
+[Arch/Hurd]: http://en.wikipedia.org/wiki/GNU_Hurd
