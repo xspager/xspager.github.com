@@ -5,7 +5,7 @@ AUTHOR = u'Daniel Lemos'
 SITENAME = u"xSpager's Blog"
 SITEURL = ''
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = u'en'
 

@@ -1,7 +1,7 @@
 Date: 2013-03-12
 Title: Django com Postgres na AWS
 Category: Web
-Tags: django, aws, postgres
+Tags: django, aws, postgres, python
 Status: draft
 
 Então você prefere o Postgres ao MySQL? Não? Talvês você devesse. Mas vamos ao que interessa, você quer saber como se configura o Postgres na AWS, certo?
