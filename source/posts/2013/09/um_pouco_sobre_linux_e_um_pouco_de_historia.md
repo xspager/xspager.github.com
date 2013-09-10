@@ -2,7 +2,6 @@ Date: 2013-08-12
 Title: Um pouco sobre Linux e um pouco de história
 Category: historia
 Tags: linux, minix, c, unix
-Status: draft
 
 > "Para entender o presente é preciso conhecer o passado" - **Carl Sagan**
 
