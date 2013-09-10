@@ -15,7 +15,7 @@ Tudo começou quando a [Bell Labs][] abandonou o projeto [Multics][], que visava
 
 [Ken Thompson][] e [Dennis Ritchie][] (que faleceu em outubro de 2011) resolveram criar uma versão simplificada do Multics numa máquina que estava sem uso. Pegando emprestado alguns conceitos do Multics eles escreveram na linguagem de máquina do [minicomputador][] [PDP-7][] o que viria a ser chamado de Unix. Nessa primeira versão do Unix, ainda no PDP-7 foi criada a [linguagem B][], e uma parte do Unix foi reescrita em B, o que o tornou [portátil][], já que sem esse passo seria preciso reescrever o sistema inteiro na linguagem de máquina da plataforma alvo. C (ver [K&R][]) só foi surgir quando o Unix foi portado para o PDP-11, uma máquina mais potente que precisou que a linguagem mudasse. Mais tarde o Unix foi reescrito em C.
 
-<figure>
+<figure style="float:none; width:100%">
     <img alt="Ken Thompson e Dennis Ritchie planejando dominar o mundo com o seu PDP-11" src="../static/images/Ken_Thompson_and_Dennis_Ritchie_in_front_of_a_pdp11.png" />
     <figcaption>Ken Thompson e Dennis Ritchie planejando dominar o mundo com o seu PDP-11</figcaption>
 </figure>
