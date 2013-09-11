@@ -1,4 +1,4 @@
-Date: 2013-08-12
+Date: 2013-09-11
 Title: Um pouco sobre Linux e um pouco de história
 Category: historia
 Tags: linux, minix, c, unix
