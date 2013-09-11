@@ -25,6 +25,6 @@ DEFAULT_PAGINATION = 10
 
 OUTPUT_PATH = '../'
 
-#THEME = 'waterspill'
+#THEME = 'subtle'
 
 STATIC_PATH = ["images"]
