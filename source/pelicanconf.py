@@ -1,30 +1,38 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
+AUTHOR = 'Daniel'
+SITENAME = 'Blog'
+SITEURL = ""
 
-AUTHOR = u'Daniel Lemos'
-SITENAME = u"xSpager's Blog"
-SITEURL = ''
+PATH = "content"
 
 TIMEZONE = 'America/Sao_Paulo'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
+
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
+OUTPUT_PATH = '../'
 
 # Blogroll
 LINKS = (
-    ('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
-    ('Python.org', 'http://python.org'),
-    ('Jinja2', 'http://jinja.pocoo.org'),
+    ("Pelican", "https://getpelican.com/"),
+    ("Python.org", "https://www.python.org/"),
+    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
+    ("You can modify those links in your config file", "#"),
 )
 
 # Social widget
 SOCIAL = (
-    ('twitter', 'http://twitter.com/DanielOCL'),
+    ("You can add links in your config file", "#"),
+    ("twitter", "https://twitter.com/DanielOCL"),
+    ("", "#"),
 )
 
 DEFAULT_PAGINATION = 10
 
-OUTPUT_PATH = '../'
-
-#THEME = 'subtle'
-
-STATIC_PATH = ["images"]
+# Uncomment following line if you want document-relative URLs when developing
+# RELATIVE_URLS = True
