@@ -12,5 +12,5 @@ jobs:
       id-token: "write"
     with:
       settings: "publishconf.py"
-      theme:  "https://github.com/alexandrevicenzi/Flex"
+      theme:  "https://github.com/xspager/Flex.git"
       requirements: "pelican[markdown]"
