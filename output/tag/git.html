@@ -1,95 +1,150 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8">
-        <title>A Pelican Blog - git</title>
-        <link rel="stylesheet" href="/theme/css/main.css">
-                <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
-                
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+          href="/theme/pygments/github.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/solid.css">
+
+
+
+
+
+
+
+ 
+
+    <meta name="author" content="Daniel" />
+    <meta name="description" content="" />
+  <meta property="og:site_name" content="Blog"/>
+  <meta property="og:type" content="blog"/>
+  <meta property="og:title" content="Blog"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content=""/>
+
+  <title>Blog &ndash; Tag git</title>
+
+
 </head>
+<body class="light-theme">
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">A Pelican Blog </a></h1>
-                <nav><ul>
-                                                                                    <li class="active"><a href="/category/.html"></a></li>
-                                    <li ><a href="/category/web.html">Web</a></li>
-                                                </ul></nav>
-        </header><!-- /#banner -->
-                
-            
+<aside>
+  <div>
+    <a href="/">
+      <img src="/theme/img/profile.png" alt="A Blog" title="A Blog">
+    </a>
 
-                            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/hospedando-um-site-estatico-na-sua-conta-do-github.html">Hospedando um site estático na sua conta do GitHub</a></h1> 
-                    <footer class="post-info">
-        <abbr class="published" title="2013-03-12T00:00:00">
-                Ter 12 março 2013
-        </abbr>
+    <h1>
+      <a href="/">A Blog</a>
+    </h1>
 
-        <p>In <a href="/category/web.html">Web</a>. </p>
-<p>tags: <a href="/tag/github.html">github</a><a href="/tag/pelican.html">pelican</a><a href="/tag/git.html">git</a></p>
-</footer><!-- /.post-info --><p>O primeiro passo é criar uma conta no GitHub se você ainda não tiver uma. Para criar uma conta grátis, vá em <a href="">https://github.com/signup/free</a> e se cadastre-se.</p>
-<p>Agora precisamos criar um novo repositório git na sua conta que vai ser o site. O nome desse repositório deve seguir o padrão nome_do_seu_usuario.github.com</p>
-<p>Para poder começar a criar o seu site você vai ter que clonar o esse repositório na rua máquina local. Para quem não está familiarizado com git, você deve rodar:</p>
-<div class="highlight"><pre><span class="nv">$ </span>git clone https://github.com/usuario/nome_do_seu_usuario.github.com.git
-</pre></div>
+    <p>Whatever I manage to post</p>
 
 
-<p>A seguir vamos criar um arquivo HTML(no caso HTML5) básico no estilo "Hello, World!". Crie um arquivo chamado index.html na raiz do clone do seu repositório com o código a seguir:</p>
-<div class="highlight"><pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">&quot;en&quot;</span><span class="nt">&gt;</span>
-   <span class="nt">&lt;head&gt;</span>
-       <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
-       <span class="nt">&lt;title&gt;</span>Hello World<span class="nt">&lt;/title&gt;</span>
-   <span class="nt">&lt;/head&gt;</span>
-   <span class="nt">&lt;body&gt;</span>
-       <span class="nt">&lt;h1&gt;</span>Hello World<span class="nt">&lt;/h1&gt;</span>
-       <span class="nt">&lt;p&gt;</span>
-           Hello, World!
-       <span class="nt">&lt;/p&gt;</span>
-   <span class="nt">&lt;/body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</pre></div>
+    <nav>
+      <ul class="list">
 
 
-<p>Commite o arquivo:</p>
-<div class="highlight"><pre><span class="nv">$ </span>git add index.html
-<span class="nv">$ </span>git commit -m <span class="s1">&#39;Commit inicial&#39;</span>
-</pre></div>
+            <li>
+              <a target="_self"
+                 href="/pages/about.html#about">
+                About
+              </a>
+            </li>
+
+          <li>
+            <a target="_self" href="https://getpelican.com/" >Pelican</a>
+          </li>
+          <li>
+            <a target="_self" href="https://www.python.org/" >Python.org</a>
+          </li>
+          <li>
+            <a target="_self" href="https://palletsprojects.com/p/jinja/" >Jinja2</a>
+          </li>
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-twitter"
+           href="https://twitter.com/DanielOCL"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-bluesky"
+           href="https://bsky.app/profile/danielocl.com.br"
+           target="_blank">
+          <i class="fa-brands fa-bluesky"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
 
 
-<p>E faça o push para o github:</p>
-<div class="highlight"><pre><span class="nv">$ </span>git push
-</pre></div>
 
 
-<p>Aguarde alguns minutos para que o github identifique que esse repositório é uma pagina e depois acesse http://nome_do_seu_usuario.github.com</p>
-<p>Indo um pouco além do HTML escrito a mão, podemos usar um gerador de sites estáticos como o <a href="http://docs.getpelican.com/">Pelican</a>. Com ele você pode escrever o seu site/blog em <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> ou <a href="http://www.methods.co.nz/asciidoc/index.html">AsciiDoc</a> e deixar a geração do HTML para ele.</p>
-<p>Baseado no: <a href="">http://yakattack-steel-trap.blogspot.com.br/2012/04/hosting-your-html-on-github.html</a></p>                </article>
-                                                                </aside><!-- /#featured -->
-                                                </ol><!-- /#posts-list -->
-                        </section><!-- /#content -->
-                    <section id="extras" class="body">
-                                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-                            
-                                                </ul>
-                </div><!-- /.social -->
-                </section><!-- /#extras -->
+<article>
+  <header>
+    <h2><a href="/hospedando-um-site-estatico-na-sua-conta-do-github.html#hospedando-um-site-estatico-na-sua-conta-do-github">Hospedando um site estático na sua conta do GitHub</a></h2>
+    <p>
+      Posted on ter 12 março 2013 in <a href="/category/web.html">Web</a>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+          &#8226; Tagged with
+              <a href="/tag/github.html">github</a>,              <a href="/tag/pelican.html">pelican</a>,              <a href="/tag/git.html">git</a>
+    </p>
+  </header>
+  <div>
+      <div><p>O primeiro passo é criar uma conta no GitHub se você ainda não tiver uma. Para criar uma conta grátis, vá em <a href="">https://github.com/signup/free</a> e se cadastre-se.</p></div>
+        <br>
+        <a class="btn"
+           href="/hospedando-um-site-estatico-na-sua-conta-do-github.html#hospedando-um-site-estatico-na-sua-conta-do-github">
+          Continue reading
+        </a>
+  </div>
+</article>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+  <div class="pagination">
+  </div>
 
+
+
+<footer>
+<p>&copy; 2025 </p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Blog ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
 </body>
 </html>
