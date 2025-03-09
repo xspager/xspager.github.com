@@ -1,6 +1,6 @@
-AUTHOR = 'Daniel'
-SITENAME = 'Blog'
-SITETITLE = 'A Blog'
+AUTHOR = 'xspager'
+SITENAME = 'xspager\'s Blog'
+SITETITLE = 'xspager\'s Blog'
 SITESUBTITLE = 'Whatever I manage to post'
 SITEURL = ""
 
@@ -37,10 +37,12 @@ DEFAULT_PAGINATION = 3
 
 THEME='Flex'
 
-COPYRIGHT_YEAR = 2025
+COPYRIGHT_YEAR = "2013-2025"
 
-SUMMARY_MAX_LENGTH = 128
-SUMMARY_MAX_PARAGRAPHS = 1
+SUMMARY_MAX_LENGTH = 2024
+SUMMARY_MAX_PARAGRAPHS = 5
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
+PATH_METADATA = r'posts/(?P<date>\d{4}/\d{2}).*'
