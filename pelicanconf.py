@@ -42,8 +42,11 @@ COPYRIGHT_YEAR = "2013-2025"
 SUMMARY_MAX_LENGTH = 2024
 SUMMARY_MAX_PARAGRAPHS = 5
 
-STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/robots.txt']
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/robots.txt': {'path': 'robots.txt'}
+}
 
 PATH_METADATA = r'posts/(?P<date>\d{4}/\d{2}).*'
 
