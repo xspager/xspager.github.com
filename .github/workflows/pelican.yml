@@ -13,4 +13,4 @@ jobs:
     with:
       settings: "publishconf.py"
       theme:  "https://github.com/xspager/Flex.git"
-      requirements: "pelican[markdown]"
+      requirements: "requirements.txt"

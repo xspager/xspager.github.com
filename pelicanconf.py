@@ -48,3 +48,5 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 PATH_METADATA = r'posts/(?P<date>\d{4}/\d{2}).*'
 
 THEME_TEMPLATES_OVERRIDES = ["templates"]
+
+PLUGINS = ['sitemap']
