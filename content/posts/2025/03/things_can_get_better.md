@@ -5,7 +5,7 @@ Category: opinion
 Lang: en
 Tags: hope, geopolitics, politics
 
-It's 2025, and I like to remember that things can always get better. Of course they can get worse, and they are, but it't almost impossible that even a small group of people, even one person can't make the things around them a little better. That's part of what makes a civilization.
+It's 2025, and I like to remember that things can always get better. Of course they can get worse, and they are, but it's almost impossible that even a small group of people, even one person **can't** make the things around them a little better. That's part of what makes a civilization.
 
 Humans, and lot's of other animals, even single cell organisms and plants, can change their environment and make it better. This word has been ruined by the european empires but, a single cell, a group of cells, plants and animals do *colonize* their environment, they make it easier for others like them to thrive, and sometimes even intentionally makes live better or possible for other things, unlike european colonialism (unless you are a virus, a cockroach or a rat). Everywhere humans go, they "terraform" the environment, of course we can't make [Terra](https://en.wikipedia.org/wiki/Earth) more Terra-like, but we do make areas we settle more comfortable and easier to exist on for ourselves by building shelters, by destroying forest to open areas for farming, changing river courses for flood control and irrigation and building bridges, things people around the world have been doing for many thousands of years.
 
