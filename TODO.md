@@ -1,0 +1,1 @@
+- [ ] External links in the article body should open on a new tab/window LINKS_IN_NEW_TAB only works for links on the sidebar

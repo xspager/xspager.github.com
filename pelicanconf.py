@@ -17,6 +17,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+MAIN_MENU = True
+
 # Blogroll
 LINKS = (
     ("Pelican", "https://getpelican.com/"),
@@ -30,6 +32,12 @@ SOCIAL = (
     ("bluesky", "https://bsky.app/profile/danielocl.com.br"),
 )
 
+MENUITEMS = (
+    ("Archives", "/archives.html"),
+    ("Categories", "/categories.html"),
+    ("Tags", "/tags.html"),
+)
+
 DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -38,6 +46,9 @@ DEFAULT_PAGINATION = 3
 THEME='Flex'
 
 COPYRIGHT_YEAR = "2013-2025"
+ROBOTS = "all"
+SITEDESCRIPTION = "xspager's personal blog about geopolitics, technology and more"
+LINKS_IN_NEW_TAB = True
 
 SUMMARY_MAX_LENGTH = 255
 SUMMARY_MAX_PARAGRAPHS = 4
