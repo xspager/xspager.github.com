@@ -63,9 +63,10 @@ PATH_METADATA = r'posts/(?P<date>\d{4}/\d{2}).*'
 
 THEME_TEMPLATES_OVERRIDES = ["templates"]
 
-PLUGINS = ['sitemap', 'statistics']
+PLUGINS = ['sitemap', 'statistics', 'share_post']
 
 REL_CANONICAL = True
+
 THEME_COLOR = 'dark'
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
