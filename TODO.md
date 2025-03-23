@@ -1,2 +1,2 @@
-- [ ] External links in the article body should open on a new tab/window LINKS_IN_NEW_TAB only works for links on the sidebar
+- [ ] External links in the article body should open on a new tab/window LINKS_IN_NEW_TAB only works for links on the sidebar (have a look at https://github.com/pelican-plugins/linkclass/blob/main/pelican/plugins/linkclass/mdx_linkclass.py for inspiration)
 - [ ]  Upstream my fixes
