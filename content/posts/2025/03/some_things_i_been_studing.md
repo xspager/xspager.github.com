@@ -7,13 +7,7 @@ Tags: studying, reactjs, python, microservices, cedar, parc, xerox
 
 Maybe I should keep a record of things I have been looking as I try to not go insane looking for a new job, so, here we go:
 
-- [Microservices](#microservices)
-- [Elixr and Phoenix](#elixr-and-phoenix)
-- [Cedar Tools](#cedar-tools)
-- [Reading the book Learning React](#reading-the-book-learning-react)
-- [LZMA URL](#lzma-url)
-- [Apache Airflow](#apache-airflow)
-- [Apache Kafka](#apache-kafka)
+[TOC]
 
 ## Microservices
 Can say I did edited the Portuguese Wikipedia article and added another paragraph. I also create a new Github repo to follow two tutorials I want to go through before I sit down to read a whole book or something.

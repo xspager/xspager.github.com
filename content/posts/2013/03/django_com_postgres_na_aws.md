@@ -7,6 +7,8 @@ Status: draft
 
 Então você prefere o Postgres ao MySQL? Não? Talvês você devesse. Mas vamos ao que interessa, você quer saber como se configura o Postgres na AWS, certo?
 
+[TOC]
+
 Como configurar o Postgres na AWS
 ===
 
