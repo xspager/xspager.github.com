@@ -1,4 +1,5 @@
 pelican[markdown]==4.11.0
 pelican-sitemap==1.2.0
 pelican-statistics==1.0.0
-git+https://github.com/xspager/share-post.git@feature/bluesky_title#pelican-share-post
+pelican-share-post==1.2.1
+pelican-markdown-include==1.0.5
