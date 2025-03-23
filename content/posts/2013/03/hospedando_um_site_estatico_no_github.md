@@ -1,6 +1,7 @@
 Date: 2013-03-12
 Title: Hospedando um site estático na sua conta do GitHub
 Category: Web
+Lang: pt-BR
 Tags: github, pelican, git
 
 O primeiro passo é criar uma conta no GitHub se você ainda não tiver uma. Para criar uma conta grátis, vá em [https://github.com/signup/free]() e se cadastre-se.

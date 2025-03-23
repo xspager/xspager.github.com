@@ -1,0 +1,44 @@
+Title: Sobre o mundo pós America
+Date: 2025-03-25
+Status: draft
+Category: opinião
+Lang: pt-BR
+Tags: china, imperialismo, geopolítica
+
+[TOC]
+
+Donald Trump, que não é um candidato da Manchuria Soviético, está realizando o sonho de tantos revolucionários pelo mundo ao destruir toda e qualquer ilusão ou meio de que o governo americano possa demonstrar superioridade cultural e tecnológica, ou oferecer serviço ao resto da humanidade para colher os benefícios do softpower que possa eles pudessem gerar. A economia está frangalhos, há epidemias de várias doenças consideradas eliminadas no resto do mundo desenvolvido em várias regiões do país, e claro, o preço dos ovos, a fonte mais barata de proteínas e nutrição, virou artigo de luxo devido a forma como o governo central e local não trata a epidemia de gripe aviária da forma e com severidade necessária.
+
+## Como chegamos aqui
+
+Colonialismo aconteceu no mundo inteiro e aconteceu na China. As potencias militares todas queriam uma parte da China pra si, não só isso mas queriam converter a população do país ao cristianismo e recriar o país no modelo europeu. Quase conseguiram. Um país que foi de potencia industrial o país mais rico da história da humanidade foi transformado numa grande cracolândia graças ao comércio de ópio imposto ao país pelo Reino Unido.
+
+Dês do fim da segunda guerra mundial, os estados unidos tomou pra si a posição de líder em todos os setores da vida internacional. Sua influência geopolítica e cultural estão atreladas as vidas de todas as pessoas do mundo na maior parte do século 20 e início do século 21. Se antes haviam múltiplas potências com suas influencias políticas, culturais e tecnológicas. Dizer que os estados unidos tiveram um século de hegemonia não é exagero. Os grandes países da europa que antes tinham controle absoluto sobre a maior parte do planeta e de sua população, agora destruída por suas próprias mão, dependia do investimento norte americano para se reconstruir. Países que antes eram como mundos a parte dentro de sí mesmos passaram a ser apenas marcas do mesmo produto, variações da mesma coisa que no seu conjunto as vezes mais rápido ou gradualmente se tornaram estados dentro de um ente maior. Dominado pelas partes mais fortes, Alemanha, França e Inglaterra, submissos e quase como parte do império que as sucedeu. E assim estados unidos rapidamente criou e impôs ou tomou o controle das instituições internacionais que já existiam.
+
+Os estados unidos criaram a OTAN (NATO na sigla em inglês) do que restou dos exércitos dos países europeus. Não é segredo agora que muitos líderes militares do regime nazista alemão foram integrados a OTAN quando ela foi criada. Dos estados foi criada a União Europeia, com o ideal, assim como o da OTAN em teoria, de prevenir uma guerra entre países europeus. A União Europeia seria uma união financeira, com um banco central e uma moeda única, mas que cada vês mais existe como um super governo na península do oeste eurasiano. Dentro do que um dia foi a Liga das nações surgiu as Nações Unidas e eventualmente inúmeros órgãos e grupos com o objetivo de regulamentar todo tipo de tratado e lei internacional, assim como oferecer ajuda a todos os países membros.
+
+Que fique claro aqui a minha opinião de que para quase todas as instituições criadas ou depois controladas pelos estados unidos e seus aliados mais próximos, mesmo o banco mundial e o FMI, todas tem algo positivo feito pela humanidade que as possa ser atribuída.
+
+## Principais riscos de uma transição não pacífica
+
+Os estados unidos podem ou não tentar medidas desesperadas para evitar o fim do seu império ou garantir que outros não consigam lhe tirar do seu ponto central na economia e geopolítica. Causar guerras locais, intervir em regiões ou em assuntos sensíveis em países ao redor do mundo sempre foi e parece seguir sendo uma estratégia daquele império para se manter no controle e sempre numa situação mais favorável que seus adversários mas também de seus aliados mesmo os mais próximos. Trump não seria capaz de convencer ninguém de que ele luta pela defesa da soberania e democracia no mundo. O que não impede de que apoio de todo tipo possa ser dado a movimentos separatistas na China por exemplo como os de da região autônoma de Xinjiang ou de Shanghai. Ou até mesmo que algum novo fato seja criado na região autônoma do Tibet.
+
+O mundo inteiro é esse tabuleiro geopolítico onde uns tentam sobreviver e se aliar enquanto outros tentam eliminar a concorrência com todos meios a sua disposição.
+
+Já vivemos a anos essa guerra comercial assim como o regime de sanções econômicas a países não alinhados, não é uma guerra com tiros mas ainda sim é uma guerra, com ataques, represarias, efeitos colateiras em vítimas. O grande pivô para a Ásia declarado pela então secretária de estado Hillary Clinton em 2009 já pretendia conter econômica e militarmente a China e seus aliados. A China vem se preparando e investindo em defesa militar, e seria inocente imaginar que não investem em capacidade ofensiva também.
+
+È importante lembrar que não vivemos num mundo em que o maior risco é que uma longa e brutal guerra mundial apenas cause uma pandemia ou a morte de dezenas de milhões de pessoas. Os estados unidos em 1945, a União Soviética em 1949, Reino Unido em 1953, França e Israel em 1960, China em 1964, India em 1974, Paquistão em 1998 e por agora, Coreia do Norte em 2006. Quase uma dezena de países que possuem armamento e na maioria (com exceção do Reino Unido) veículos capazes de entregar em poucos minutos em qualquer lugar do mundo bombas capazes de incendiar cidades ao ponto de causar o que é chamado de [tempestade de fogo](https://pt.wikipedia.org/wiki/Tempestade_%C3%ADgnea) e jogar partículas de poeira a grandes altitudes na atmosfera onde não há chuva que as remova causando um longo inverno em todo o mundo conhecido como [inverno nuclear](https://pt.wikipedia.org/wiki/Inverno_nuclear).
+
+## Influência além da militar
+
+Como ficam as inúmeras áreas de influencia que a américa dominou por tanto tempo? Restarão algumas em que sua influência seguirá como é agora? O que pode substituir os estados unidos? Unicamente a China? Os cinco membros fundadores do BRICS em conjunto? China e Europa? A custura popular dos países deixará de ter tanta influência internacional, ou quem sabe haverá uma variedade maior que não permita que a produção cultural chinesa domine completamente?
+
+A influencia cultural americana é impressionante, se você tentar contar os cartoons, quadrinho, filmes, séries e musica feita nos estados unidos ou no modelo ou para os estados unidos que você consumiu até hoje na sua vida você provavelmente vai passar dias fazendo listas. Quantos estados dos estados unidos você consegue nomear, e cidades e lugares famosos? A China e os outros países que possam vir a dividir a influência cultural global terão se fazer conhecidos pelo mundo, e o conhecimento leva a empatia, mais e mais notícias vindas desses locais pesarão a impactar o ciclo de notícias em todos os países.
+
+O imperialismo estado unidense é um imperialismo liberal, ele tem que prestar contas a uma população da qual depende, é um imperialismo que feito de camadas, com múltiplos interesses, negociando e impondo as suas vontades e visões de mundo dentro de uma mesma decisão ou objetivo geopolítico. É claro que há manufatura da permissão da população do império para que algo seja feito, mas muito antes que uma decisão seja tomada ela é parte de uma discussão intelectual da qual até mesmo os políticos são excluídos, e depois que cabe a esses políticos escolher ou lhe ter imposto qual lado das vertentes principais ele irá seguir em suas decisões. Isso tem como resultado de que na maior parte do tempo é possível prever e se preparar paras as decisões de grande consequência, em poucos casos o império agiu de forma inesperada.
+
+## Conclusão
+
+A China pode não querer impor a sua cultura, criar novas instituições internacionais ou ser o líder ou quem manda nas instituições que já existem. Mas o mundo e a situação num futuro próximo podem exigir que por boas ou não tão boas intenções seja preciso se comportar um pouco como os impérios do passado, isso será um teste para o povo chinês, para a capacidade da humanidade em aprender com os erros do passado e para o governo chinês. Serão tempos incertos, talvez com sorte essa incerteza deixe de existir rapidamente. Que progresso poderá ser feito num mundo em que todos possam realmente ter uma voz? Que retrocessos do ponto de vita liberal terão que ser aceito, e quais serão os retrocessos reais do ponto de vista socialista e do progresso humano?
+
+A China simplesmente não vai substituir os estados unidos, nenhum país pode, e o futuro é incerto.

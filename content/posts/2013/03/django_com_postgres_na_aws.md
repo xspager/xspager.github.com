@@ -1,7 +1,7 @@
 Date: 2013-03-12
 Title: Django com Postgres na AWS
 Category: Web
-Lang: pt-br
+Lang: pt-BR
 Tags: django, aws, postgres, python
 Status: draft
 

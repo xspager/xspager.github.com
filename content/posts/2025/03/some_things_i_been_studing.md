@@ -1,6 +1,6 @@
 Title: Some things I've been studying and doing this year so far
 Date: 2025-03-11 13:08
-Lang: en-us
+Lang: en
 Status: published
 Category: studying
 Tags: studying, reactjs, python, microservices, cedar, parc, xerox

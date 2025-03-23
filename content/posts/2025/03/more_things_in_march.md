@@ -1,6 +1,6 @@
 Title: More things in March
 Date: 2025-03-23 13:08
-Lang: en-us
+Lang: en
 Status: published
 Category: studying
 Tags: pelican, markdown, golang, verilog

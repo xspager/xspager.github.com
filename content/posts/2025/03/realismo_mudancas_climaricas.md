@@ -1,6 +1,6 @@
 Title: Realismo sobre as mudanças climáticas
 Date: 2025-03-11
-Lang: pt-br
+Lang: pt-BR
 Status: published
 Category: opinião
 Tags: mudanças climáticas
