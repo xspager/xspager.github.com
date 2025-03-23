@@ -1,0 +1,1 @@
+This is my personal blog <https://blog.danielocl.com.br/>. It uses [Pelican](https://getpelican.com/) and it's hosted as a Github page, it uses some extentions that you check for now by looking at the [requirements.txt](requirements.txt) file. I had to hack the theme that I'm using and still need to create PR for them, check the [TODO.md](/TODO.md)
