@@ -73,3 +73,10 @@ THEME_COLOR_ENABLE_USER_OVERRIDE = True
 
 PYGMENTS_STYLE = 'xcode'
 PYGMENTS_STYLE_DARK = 'monokai'
+
+MARKDOWN = {
+    'extensions': ['codehilite', 'extra', 'footnotes', 'toc', 'abbr'],
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+    }
+}
