@@ -80,3 +80,5 @@ MARKDOWN = {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
     }
 }
+# Prevent the theme from adding a fragment in the end of the links on the index page
+DISABLE_URL_HASH = True
