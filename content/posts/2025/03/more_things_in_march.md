@@ -3,6 +3,7 @@ Date: 2025-03-23 13:08
 Lang: en
 Status: published
 Category: studying
+Cover: /images/australian-pelican-9268481_1280.jpg
 Tags: pelican, markdown, golang, verilog
 
 ![Australian Pelican in flight. Image by Penny from Pixabay](/images/australian-pelican-9268481_1280.jpg)

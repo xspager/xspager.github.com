@@ -3,6 +3,7 @@ Date: 2025-03-11
 Lang: pt-BR
 Status: published
 Category: opinião
+Cover: /images/2024-10-22_EEA ozone webpage with Copernicus_Figure 1.png
 Tags: mudanças climáticas
 
 O buraco na [Camada de Ozônio](https://pt.wikipedia.org/wiki/Ozônio#Ozonosfera) da atmosfera terrestre levou décadas para reduzir e teve seu mínimo em 2019[^1] (ver na imagem abaixo). Isso só aconteceu porque houve um esforço global e rápido para que não se fizesse mais o uso de [CFCs](https://pt.wikipedia.org/wiki/Clorofluorocarboneto). Apesar do buraco ter voltado a crescer novamente.
