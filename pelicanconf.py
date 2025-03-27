@@ -54,7 +54,7 @@ LINKS_IN_NEW_TAB = True
 SUMMARY_MAX_LENGTH = 255
 SUMMARY_MAX_PARAGRAPHS = 4
 
-STATIC_PATHS = ['images', 'extra/CNAME', 'extra/robots.txt']
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/robots.txt', 'static']
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
     'extra/robots.txt': {'path': 'robots.txt'}
