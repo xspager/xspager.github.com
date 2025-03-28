@@ -3,7 +3,7 @@ SITENAME = 'xspager\'s Blog'
 SITETITLE = 'xspager\'s Blog'
 SITESUBTITLE = 'Whatever I manage to post'
 SITEURL = ""
-SITELOGO = "/static/capibara_128x128.png"
+SITELOGO = "/static/capybara_128x128.png"
 
 PATH = "content"
 
@@ -88,4 +88,4 @@ DISABLE_URL_HASH = True
 CUSTOM_CSS = 'static/custom.css'
 
 # Foto de <a href="https://unsplash.com/pt-br/@byeduck?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mateusz Bajdak</a> na <a href="https://unsplash.com/pt-br/fotografias/um-grupo-de-animais-que-estao-de-pe-na-grama-HETOq3h8XGA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-FAVICON = 'static/capibara_128x128.png'
+FAVICON = 'static/capybara_128x128.png'
