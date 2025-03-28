@@ -1,5 +1,9 @@
 pelican[markdown]==4.11.0
+# For sitemaps.xml
 pelican-sitemap==1.2.0
+# Reading time
 pelican-statistics==1.0.0
+# Privacy respecting share to...
 pelican-share-post==1.2.1
+# Include the contents of another file on your markdown
 pelican-markdown-include==1.0.5
