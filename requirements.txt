@@ -7,3 +7,5 @@ pelican-statistics==1.0.0
 pelican-share-post==1.2.1
 # Include the contents of another file on your markdown
 pelican-markdown-include==1.0.5
+# To link articles or pages in series of
+pelican-series==3.0.0
