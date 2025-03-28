@@ -6,8 +6,7 @@ Category: studying
 Cover: /images/australian-pelican-9268481_1280.jpg
 Tags: pelican, markdown, golang, verilog
 
-![Australian Pelican in flight. Image by Penny from Pixabay](/images/australian-pelican-9268481_1280.jpg)
-<!-- Image by <a href="https://pixabay.com/users/pen_ash-5526837/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9268481">Penny</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9268481">Pixabay</a> -->
+![Australian Pelican in flight. Image by Penny from Pixabay](/images/australian-pelican-9268481_1920.jpg "Australian Pelican in flight. *Image by <a href="https://pixabay.com/users/pen_ash-5526837/">Penny</a> from <a href="https://pixabay.com/">Pixabay</a>*")
 
 I've been busy looking for a new job and all the pain that comes with that, and in the meanwhile trying to make this blog nicer. One of this days I'll make a similar post to the one I made in 2013 on how to make a your own static site like this one using [Pelican](https://getpelican.com/) and Github pages but I'll just share some stuff for now.
 
