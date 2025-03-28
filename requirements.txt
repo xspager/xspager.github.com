@@ -9,3 +9,10 @@ pelican-share-post==1.2.1
 pelican-markdown-include==1.0.5
 # To link articles or pages in series of
 pelican-series==3.0.0
+# Turn <picture> made up tags and make them into responsive images
+pelican-image-process==3.1.0
+
+# Markdown plugins
+# To create a <picture> element for each image so we can use the Pelican extension image-process to get responsive images
+#yafg==0.3
+git+https://github.com/xspager/yafg-temporary-fork.git@quick-and-dirty-hack 

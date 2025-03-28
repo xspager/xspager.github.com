@@ -64,7 +64,7 @@ PATH_METADATA = r'posts/(?P<date>\d{4}/\d{2}).*'
 
 THEME_TEMPLATES_OVERRIDES = ["templates"]
 
-PLUGINS = ['sitemap', 'statistics', 'share_post']
+PLUGINS = ['sitemap', 'statistics', 'share_post', 'image_process', 'md_include', 'series']
 
 REL_CANONICAL = True
 
@@ -76,11 +76,47 @@ PYGMENTS_STYLE = 'xcode'
 PYGMENTS_STYLE_DARK = 'monokai'
 
 MARKDOWN = {
-    'extensions': ['codehilite', 'extra', 'footnotes', 'toc', 'abbr'],
+    'extensions': ['codehilite', 'extra', 'footnotes', 'toc', 'abbr', 'yafg'],
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'yafg': {
+            'stripTitle': False,
+            'generateSource': True,
+            'imageClass': 'image-process-crisp'
+        },
     }
 }
+
+#IMAGE_PROCESS_PARSER = "lxml"
+IMAGE_PROCESS = {
+    "crisp": {
+        "type": "picture",
+        "sources": [
+            {
+                "name": "default",
+                "media": "(min-width: 640px)",
+                "srcset": [
+                    ("640w", ["scale_out 640 480 True"]),
+                    ("1024w", ["scale_out 1024 683 True"]),
+                    ("1440w", ["scale_out 1440 900 True"]),
+                    ("1600w", ["scale_out 1600 1200 True"]),
+                ],
+                "sizes": "100vw",
+            },
+            {
+                "name": "source-1",
+                "srcset": [
+                    ("640w", ["scale_out 640 480 True"]),
+                    ("1024w", ["scale_out 1024 683 True"]),
+                    ("1440w", ["scale_out 1440 900 True"]),
+                    ("1600w", ["scale_out 1600 1200 True"]),
+                ]
+            },
+        ],
+        "default": ("default", "640w"),
+    },
+}
+
 # Prevent the theme from adding a fragment in the end of the links on the index page
 DISABLE_URL_HASH = True
 
