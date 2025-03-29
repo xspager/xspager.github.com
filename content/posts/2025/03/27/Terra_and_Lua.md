@@ -11,7 +11,7 @@ Let's write some code that uses the services provided by the (U)EFI (modern BIOS
 
 [TOC]
 
-# What is Terra?
+## What is Terra?
 *"Terra is a low-level system programming language that is embedded in and meta-programmed by the Lua programming language"*. This means you can write some typed code that looks like Lua, embed some Lua code, and compile the whole thing to machine code.
 
 To install Terra you should have a look at their install guide <https://terralang.org/getting-started.html#installing-terra>
@@ -27,7 +27,7 @@ $ terra simple_hello.lua
 Hello, World!
 ```
 
-# Calling a C functions from Terra
+## Calling a C functions from Terra
 
 That was not very exiting, right? Now, let's call C's printf function to print our message:
 
@@ -40,7 +40,7 @@ $ terra hello_C.t
 Hello, C!
 ```
 
-# Generating some machine code
+## Generating some machine code
 
 What if we could write a some "Lua" and compile it to a independent binary program?
 
@@ -59,7 +59,7 @@ $ ldd
 # we depend on no library or interpreter
 ```
 
-# Getting command line parameters
+## Getting command line parameters
 
 The main function can have any name btw. We can pass treat that function the same the main funtion in C and get *argc* and *argv* from the OS
 
@@ -80,10 +80,10 @@ argv[3] baz
 # Try renaming helloterra to something else and have a look at argv[0] (this is how busybox works)
 ```
 
-# How Lua is part of this?
+## How Lua is part of this?
 Here I would show how you can write some regular Lua code and call it from a compiled Terra program but that's not possible yet.
 
-# The next part
+## The next part
 On part 2 we will learn how to get code to run on the (U)EFI environment using GNU-EFI and QEmu.
 
 
