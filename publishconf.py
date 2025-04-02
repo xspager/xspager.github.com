@@ -19,5 +19,6 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 DISQUS_SITENAME = "xspagersblog"
 #GOOGLE_ANALYTICS = "UA-34177469-2"
-GOOGLE_TAG_MANAGER = "G-JKV4BJGWPE"
+GOOGLE_GLOBAL_SITE_TAG = "G-JKV4BJGWPE"
+
 
