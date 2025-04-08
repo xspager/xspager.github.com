@@ -2,6 +2,7 @@ Title: Terra and Lua
 Category: programming
 Status: published
 Tags:lua, terra, c, lowlevel, uefi
+Date: 2025-03-27 11:51
 Cover: /images/pexels-pixabay-87009.jpg
 Series: Terra and Lua
 
