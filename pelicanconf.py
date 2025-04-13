@@ -39,7 +39,7 @@ MENUITEMS = (
     ("Tags", "/tags.html"),
 )
 
-DEFAULT_PAGINATION = 4
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
@@ -51,7 +51,7 @@ ROBOTS = "all"
 SITEDESCRIPTION = "xspager's personal blog about geopolitics, technology and more"
 LINKS_IN_NEW_TAB = True
 
-SUMMARY_MAX_LENGTH = 255
+SUMMARY_MAX_LENGTH = 64 + 32
 SUMMARY_MAX_PARAGRAPHS = 4
 
 STATIC_PATHS = ['images', 'extra/CNAME', 'extra/robots.txt', 'static']
