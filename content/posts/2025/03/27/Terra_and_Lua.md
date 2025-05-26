@@ -53,7 +53,7 @@ What if we could write a some "Lua" and compile it to a independent binary progr
 $ terra hello_world_bin.t 
 $ ./helloterra 
 Hello, Terra!
-$ ldd
+$ ldd helloterra
 	linux-vdso.so.1 (0x00007da5c64a9000)
 	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007da5c6200000)
 	/lib64/ld-linux-x86-64.so.2 (0x00007da5c64ab000)
