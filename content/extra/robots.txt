@@ -1,4 +1,16 @@
 User-agent: *
 Allow: /
 
+# GPTBot is OpenAI's web crawler
+User-agent: GPTBot
+Disallow: /
+
+# Google Bard & Gemini
+User-agent: Google-Extended
+Disallow: /
+
+# ChatGPT-User is OpenAI's web crawler
+User-agent: ChatGPT-User
+Disallow: /
+
 Sitemap: https://blog.danielocl.com.br/sitemap.xml
