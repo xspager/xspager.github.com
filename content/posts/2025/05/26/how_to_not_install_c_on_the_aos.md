@@ -79,6 +79,8 @@ The ")" you see above is the prompt. Some commands include:
 - TYPE - like the same command on MS-DOS
 - SUPERUSER - show if you are a super user or not, you become a superuser by passing "ON" as parameter. The prompt becomes "Su)". You are only able to configure the system and do some other stuff as a super user, there is a pretty advance user permission system you can configure.
 
+Novas are Forever have the AOS User Handbook <http://www.novasareforever.org/user/archive/public/docs/dg/sw/os/aos/093-000150-01__AOS_Users_Handbook__1979.pdf> if you want to have a look at other available commands. You should also check the other documentation they have: <http://www.novasareforever.org/archives/documentation/dg.sw/dg.sw.os>.
+
 Some curiosities about this OS:
 
 - The commands (at least) are case insensitive, so "dir" and "DIR" work the same
