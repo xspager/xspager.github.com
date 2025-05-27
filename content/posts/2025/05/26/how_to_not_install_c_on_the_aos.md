@@ -2,7 +2,7 @@ Title: How to (not) Install C on the AOS on a Nova MV
 Category: programming
 Status: published
 Tags: data general, nova, bcpl, alto
-Date: 2025-05-26 21:00
+Date: 2025-05-26 21:18
 Cover: /images/Data-General-Nova-System-Museum-Enter-6095073.jpg
 
 ![a Nova rack in the center with a terminal on the top, PDP-11/35 control panel to the left on top of some other smaller rack a Data General branded teletype terminal in betwen the two and an old large ociloscope behine. On the right a table with a glass terminal with the Data General colors.](/images/Data-General-Nova-System-Museum-Enter-6095073.jpg "Credits:  	Bobo11 <https://commons.wikimedia.org/wiki/File:Data-General-Nova-System-Museum-Enter-6095073.jpg>")
