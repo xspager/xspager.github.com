@@ -46,7 +46,7 @@ DEFAULT_PAGINATION = 5
 
 THEME='Flex'
 
-COPYRIGHT_YEAR = "2013-2025"
+COPYRIGHT_YEAR = "2013-2026"
 ROBOTS = "all"
 SITEDESCRIPTION = "xspager's personal blog about geopolitics, technology and more"
 LINKS_IN_NEW_TAB = True
