@@ -11,4 +11,4 @@ Cover: /images/woman-6784555.jpg
 - <https://sci-hub.ru/> All scientific papers available freely
 - <https://shadowlibraries.github.io/slum/>
 
-- <xcancel.com> Replace "twitter.com" or "x.com" on a URL so someone can see the content without having to have an account on X or to log in (formerly know as Twitter).
+- <https://xcancel.com> Replace "twitter.com" or "x.com" on a URL so someone can see the content without having to have an account on X or to log in (formerly know as Twitter).
